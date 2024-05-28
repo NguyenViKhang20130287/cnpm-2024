@@ -7,3 +7,4 @@ COPY target/cnpm-2024.war /usr/local/tomcat/webapps/
 # Expose port 8080 để ứng dụng có thể truy cập từ bên ngoài
 EXPOSE 8080
 
+CMD ["catalina.sh", "run"]
