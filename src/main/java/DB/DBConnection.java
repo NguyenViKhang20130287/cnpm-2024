@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/cnpm_clothes_ecommerce_shop";
+    private static final String URL = "jdbc:mysql://roundhouse.proxy.rlwy.net:23329/cnpm_clothes_ecommerce_shop";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "chidTDcqrjQaIdnttLDYJfcgUTKOQgyZ";
 
     public Connection getConnection() {
         Connection conn = null;
